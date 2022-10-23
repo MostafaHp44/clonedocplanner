@@ -1,0 +1,360 @@
+*
+{
+box-sizing: border-box;
+padding: auto;
+scroll-behavior: smooth;
+margin:0px ;
+}
+
+
+header
+{
+background-color:white;
+width: 100%;
+position:fixed;
+z-index: 1500;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 200px;
+margin: auto;
+
+}
+.logo-docplanner
+{
+    width: 268px;
+    height: 33px;
+}
+.onenav
+{
+    color: #00b39b;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 0.6em;
+}
+.twonav 
+{
+ color:#747474;
+ text-decoration: none;
+ font-weight: 400;
+ padding-top:70px ;
+ padding: 0.6em;
+}
+.threenav 
+{
+ color:#747474;
+ text-decoration: none;
+ font-weight: 400;
+ padding-top:70px ;
+ padding: 0.6em;
+}
+.twonav:hover
+{
+color: #00b39b;
+}
+.threenav:hover
+{ 
+color: #00b39b;
+}
+
+.logoonp
+{
+   display: block;
+   margin: auto; 
+}
+.textwithlogo
+{
+   color: #00b39b; 
+   font-size: 2.15rem;
+   margin: 1em;
+   text-align: center;
+   font-weight: 200;
+   font-family: Work Sans,Arial,sans-serif;
+}
+
+.textlogo::selection
+{
+    color: white;
+    background-color: #00b39b;
+    padding: 30px;
+}
+.main
+{
+    padding: 100px 200px 0px;   
+}
+.sec2
+{
+    display: flex;
+    padding-left: 270px;
+}
+.container
+{
+    column-count: 2;
+    column-width: 480px;
+    color: #747474;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: medium;
+}
+.container::selection
+{
+  background-color: #00b39b;
+  color: white;  
+}
+.card
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 30px 30px ;
+}
+.card1
+{
+   
+   background-color: #00b39b;
+   color: white;
+   padding: 45px ;
+   border-radius:10px ;
+
+}
+.card2
+{
+    background-color: #3d83df;
+    color: white;
+    padding: 45px;
+    border-radius:10px ;
+
+}
+.card3
+{
+    background-color: #1b2734;
+    color: white;
+    padding: 45px;
+    border-radius:10px ;
+
+}
+.textblogo
+{
+    display: flex; 
+    width: 100%;  
+}
+.textunder
+{
+    color: #00b39b;
+    padding: 25px;
+}
+.brands__logos a path
+{
+    transition: all.2s ease 0s;
+    fill: hsla(0, 0%, 67%, .7);
+}
+.brands__logos a svg
+{
+height: 20px;
+width: auto;
+max-width: 100%;
+padding-left: 10px;    
+}
+.brands__logos
+{
+align-items: center;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+font-size: 0%;
+list-style: none;
+}
+
+.bigcard
+{
+ display: flex;
+ background-color: #E5FAF8;
+ margin: 50px 0px 88px;
+ padding: 50px 0px 100px;
+ overflow: hidden;
+}
+.bigcard1
+{
+padding: 10px 10px 10px 10px;
+width: 60%;
+}
+.bigpic
+{
+    background-image: url(/logo.png);
+}
+.pa1
+{
+color: #00b39b;
+font-size:2.125rem ;  
+padding-left: 100px;
+font-family: Work Sans,Arial,sans-serif;
+font-weight: 300;
+letter-spacing: -0.3px;
+}
+.pa2
+{
+ color: #747474;
+ font-size: 0.875em;
+ font-weight: 400;
+ max-width: 415px;   
+ padding-left: 100px;
+
+}
+.pa1::selection
+{
+    color: white;
+    background-color: #00b39b;
+}
+.pa2::selection
+{
+    color: white;
+    background-color: #00b39b;
+}
+.fourcard
+{
+  display: grid;
+  grid-template-rows: 311px 277px;
+  grid-template-columns: 278px 245px;
+  
+}
+.cardup
+{
+    background-color: white;
+    color: #00b39b;
+    border-radius: 5px;
+    padding:15px;
+    width: 216px;
+    height: 250px;
+}
+.carddown
+{
+    background-color: white;
+    color: #00b39b;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 50px;   
+    width: 216px;
+    height: 295px
+
+}
+.cardup >p , .carddown > p
+{
+    color: #747474;
+}
+
+.textunderbigcard
+{
+padding-left: 600px;
+}
+.textbigcard1
+{
+    color: #00b39b;
+}
+.textbigcard2
+{
+   color: #747474; 
+   padding-right: 100px;
+}
+.Country
+{
+    display:flex;
+    flex-wrap: wrap;
+    padding-left:105px;
+    padding-top: 25px;
+}
+.warsaw
+{
+    padding: 10px;
+}
+
+
+.office__inner
+{
+    background-color: white;
+    border: 1px solid rgba(0, 0,0, 0.03); 
+    border-radius: 6px;
+    max-width: 400px;
+    position: relative;
+    display: block;
+    color: #747474;
+    text-decoration: none;
+    overflow: hidden;
+    z-index: 2;
+}
+.office__desc
+{
+    font-size: 1.125em;
+    font-weight: 400;
+    line-height: 1.6667;
+    padding: 1.11em;
+}
+.figure
+{
+    margin: 0px;
+}
+.img
+{
+    max-width: 100%;
+    height: auto;
+    border: 0px;
+}
+.btn
+{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    border-radius: 4px;
+    background-color: #3d83df;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0px;
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0.04em;
+}
+.btn--small
+{
+    font-size: .625rem;
+    padding: 1em 1.5em;
+}
+.btn 
+{
+    float: right;
+}
+
+.end
+{
+   padding-left: 600px; 
+}
+.textend
+{
+    color: #333;
+}
+.textend::selection
+{
+  color: white;
+  background-color: #00b39b;  
+}
+.btnend
+{
+    padding-left: 60px;
+}
+.btnn
+{
+   padding: 20px;
+    border-radius: 4px;
+    background-color: #3d83df;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0px;
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0.04em;
+    
+
+}
+.end 
+{
+    padding-top: 50px;
+}
